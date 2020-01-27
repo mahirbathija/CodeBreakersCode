@@ -3,17 +3,19 @@
 # If both pointers are None, break from the loop
 # When either pointer reaches None / end of list, redirect it to the head of the other list and keep traversing.
 
+# PSEUDOCODE
+
 # def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-    # currA = headA
-    # currB = headB
-    # while currA != currB:
-    #     traverse currA and currB by one
-    #     break if currA and currB are both null
-    #     if currA is null:
-    #         point to headB
-    #     if currB is null:
-    #         point to headA
-    # return currA
+#   currA = headA
+#   currB = headB
+#   while currA != currB:
+#     traverse currA and currB by one
+#     break if currA and currB are both null
+#     if currA is null:
+#         point to headB
+#     if currB is null:
+#         point to headA
+#   return currA
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
